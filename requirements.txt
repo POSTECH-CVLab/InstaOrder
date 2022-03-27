@@ -1,0 +1,12 @@
+torch==1.7.1 
+torchvision==0.8.2 
+pyyaml==5.4.1 
+opencv-python 
+cvbase 
+scikit-image 
+cython 
+sklearn 
+numpy 
+tqdm 
+wandb
+
