@@ -1,9 +1,12 @@
-# Instance-wise Occlusion and Depth Orders in Natural Scenes (CVPR 2022)
+# Instance-wise Occlusion and Depth Orders in Natural Scenes 
+Official source code. Appears at **CVPR 2022**
 
-InstaOrder is a new dataset that provides 2.9M annotations of geometric orderings for class-labeled instances in 101K natural scenes. InstaOrder is the first dataset of both occlusion order and depth order from the same image, with bidirectional occlusion order and delicate depth range annotations. 
+This repository provides a new dataset, named InstaOrder, that can be used to understand the geometrical relationships of instances in an image. The dataset consists of 2.9M annotations of geometric orderings for class-labeled instances in 101K natural scenes. The scenes were annotated by 3,659 crowd-workers regarding (1) **occlusion order** that identifies occluder/occludee and (2) **depth order** that describes ordinal relations that consider relative distance from the camera. This repository also introduce a geometric order prediction network called **InstaOrderNet**, which is superior to state-of-the-art approaches.
 
+<p align="center">
 <img src="demo_images/dataset.png" height="450">
-
+</p>
+  
 ## Installation
 This code has been developed under Anaconda(Python 3.6), Pytorch 1.7.1, torchvision 0.8.2 and CUDA 10.1. Please install following environments:
 
